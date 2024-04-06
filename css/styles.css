@@ -26,7 +26,8 @@ body {
 	/* justify-items: center; */
 	justify-content: center;
 
-	background-color: cadetblue;
+	/* background-color: cadetblue; */
+	background-image: radial-gradient(darkgreen, cadetblue);
 }
 
 /* mobile */
@@ -43,7 +44,7 @@ main {
 	flex-direction: column;
 	row-gap: 0.5rem;
 	/* align-items: center; */
-	outline: solid;
+	/* outline: solid; */
 	border-radius: 1rem;
 	padding: 2rem;
 
