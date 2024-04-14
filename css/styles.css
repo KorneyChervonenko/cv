@@ -21,7 +21,7 @@ body {
 
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	/* align-items: center; */
 	/* align-content: center; */
 	/* justify-items: center; */
 	justify-content: center;
@@ -34,6 +34,7 @@ body {
 main {
 	/* inline-size: 22rem; */
 	inline-size: 90%;
+	block-size: fit-content;
 	/* min-inline-size: 10rem; */
 	/* block-size: 50rem; */
 	/* block-size: 100vh; */
@@ -47,8 +48,13 @@ main {
 	/* outline: solid; */
 	border-radius: 1rem;
 	padding: 2rem;
-
+	margin-top: 2rem;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 img {
+	block-size: 1.6rem;
+	/* box-shadow: 0 5px 15px 0 #898989; */
 }
 
 h1 > p {
