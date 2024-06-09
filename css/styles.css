@@ -54,7 +54,14 @@ main {
 
 h1 img {
 	block-size: 1.6rem;
+	/* block-size: 1rem; */
 	/* box-shadow: 0 5px 15px 0 #898989; */
+}
+
+h1 img:hover {
+	transform: scale(200%);
+	transition-duration: 0.2s;
+	transition-property: transform;
 }
 
 h1 > p {
