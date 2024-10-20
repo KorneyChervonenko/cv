@@ -80,7 +80,7 @@ main:has(select > option[value='en']:checked) {
 select {
 	position: absolute;
 	right: 2rem;
-	inline-size: 2.5rem;
+	inline-size: 3rem;
 }
 
 .social {
