@@ -97,6 +97,7 @@ select {
 
 .skill-list img {
 	block-size: 1.6rem;
+	border-radius: 0.4rem;
 	/* block-size: 1rem; */
 	/* box-shadow: 0 5px 15px 0 #898989; */
 }
